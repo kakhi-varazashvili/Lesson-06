@@ -3,6 +3,19 @@
 მნიშვნელობით და დააბრუნებს ახალ string-ს. არ გამოიყენო string.replace() ფუნქცია.*/
 
 
+// let str = "დაწერე ფუნქცია, რომელიც მიიღებს სამ პარამეტრს";
+// // let newWord = ""
+// function text(str, word1, word2){
+//     // let  word1 = let word2;
+//    let ind = str.indexOf(word1)
+// //    console.log(ind)
+//     ind = word2
+    
+// // console.log(word2)
+//     return str
+// }
+// console.log(text(str,"სამ","ოთხ"))
+
 
 
 
@@ -36,4 +49,4 @@ const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Nika", age:25
         return user
     }
 
-    console.log(sortUsers(user))
+    console.log("დავალება #3: ",sortUsers(user))
