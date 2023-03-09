@@ -5,6 +5,8 @@
 
 
 
+
+
 /*ლექცია #6 - დავალება #2 - დაწერე ფუნქცია, რომელიც პარამეტრად მიიღებს 
 string ტიპის მნიშვნელობას (წინადადებას), მასში ყოველ სიტყვას გადაწერს 
 დიდი ასოთი და დააბრუნებს ახალ წინადადებას. */
@@ -27,12 +29,11 @@ console.log("დავალება #2 - ",upperCase(a))
 უნდა დააბრუნოს [{name:"Saba", age: 20},{name:"Lasha", age:30}]. შეგიძლიათ გამოიყენოთ sort() ფუნქცია.*/
 
 
-const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Saba", age:25},{name:"Kakhi", age:36}];
+const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Nika", age:25},{name:"Kakhi", age:36}];
 
     function sortUsers(){
         user.sort((a,b) => parseFloat(a.age) - parseFloat(b.age))
         return user
     }
-
 
     console.log(sortUsers(user))
