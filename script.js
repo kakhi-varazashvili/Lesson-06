@@ -25,3 +25,14 @@ console.log("დავალება #2 - ",upperCase(a))
 და დააბრუნებს დალაგებულ მასივს მომხმარებლების ასაკის ზრდადობის მიხედვით.
 მაგალითად: ჩავთვალოთ რომ გვაქვს [{name:"Lasha", age: 30},{name:"Saba", age:20}]. ფუნქციამ
 უნდა დააბრუნოს [{name:"Saba", age: 20},{name:"Lasha", age:30}]. შეგიძლიათ გამოიყენოთ sort() ფუნქცია.*/
+
+
+const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Saba", age:25},{name:"Kakhi", age:36}];
+
+    function sortUsers(){
+        user.sort((a,b) => parseFloat(a.age) - parseFloat(b.age))
+        return user
+    }
+
+
+    console.log(sortUsers(user))
