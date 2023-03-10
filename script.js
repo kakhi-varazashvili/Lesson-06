@@ -2,22 +2,18 @@
 (string, valueToReplace, valueToReplaceWith), ჩაანაცვლებს "valueToReplace"-ს "valueToReplaceWith"
 მნიშვნელობით და დააბრუნებს ახალ string-ს. არ გამოიყენო string.replace() ფუნქცია.*/
 
+let str = "დაწერე ფუნქცია, რომელიც მიიღებს სამ პარამეტრს";
 
-// let str = "დაწერე ფუნქცია, რომელიც მიიღებს სამ პარამეტრს";
-// // let newWord = ""
-// function text(str, word1, word2){
-//     // let  word1 = let word2;
-//    let ind = str.indexOf(word1)
-// //    console.log(ind)
-//     ind = word2
-    
-// // console.log(word2)
-//     return str
-// }
-// console.log(text(str,"სამ","ოთხ"))
+function change(str, toReplace, toReplaceWith){
 
+return str
+.trim()
+.split(toReplace)
+.join(toReplaceWith)
 
+}
 
+console.log(change("დაწერე ფუნქცია, რომელიც მიიღებს სამ პარამეტრს","სამ","ხუთ"))
 
 
 /*ლექცია #6 - დავალება #2 - დაწერე ფუნქცია, რომელიც პარამეტრად მიიღებს 
@@ -32,7 +28,7 @@ function upperCase(upper){
     return a
 }
 
-console.log("დავალება #2 - ",upperCase(a))
+// console.log("დავალება #2 - ",upperCase(a))
 
 
 
@@ -49,4 +45,4 @@ const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Nika", age:25
         return user
     }
 
-    console.log("დავალება #3: ",sortUsers(user))
+    // console.log("დავალება #3: ",sortUsers(user))
