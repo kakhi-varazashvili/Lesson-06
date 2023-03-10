@@ -13,7 +13,7 @@ return str
 
 }
 
-console.log(change(str,"სამ","ხუთ"))
+console.log("დავალება #1: ",change(str,"სამ","ხუთ"))
 
 
 /*ლექცია #6 - დავალება #2 - დაწერე ფუნქცია, რომელიც პარამეტრად მიიღებს 
@@ -28,7 +28,7 @@ function upperCase(upper){
     return a
 }
 
-console.log("დავალება #2 - ",upperCase(a))
+console.log("დავალება #2: ",upperCase(a))
 
 
 
