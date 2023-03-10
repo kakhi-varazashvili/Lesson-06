@@ -28,7 +28,7 @@ function upperCase(upper){
     return a
 }
 
-// console.log("დავალება #2 - ",upperCase(a))
+console.log("დავალება #2 - ",upperCase(a))
 
 
 
@@ -45,4 +45,4 @@ const user = [{name:"Lasha", age: 30},{name:"Saba", age:20},{name:"Nika", age:25
         return user
     }
 
-    // console.log("დავალება #3: ",sortUsers(user))
+    console.log("დავალება #3: ",sortUsers(user))
